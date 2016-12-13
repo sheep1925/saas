@@ -19,6 +19,8 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+
+
 h1 , h2 , h3 {
     font-family: 'Open Sans' , sans-serif;
 }
@@ -52,4 +54,25 @@ border: none;
         color: white;
         opacity: 0.8;
     }
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus{
+        background-color: green;
+    }
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: green;
 }
