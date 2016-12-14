@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-root to: 'pages#home'
-get 'about' , to: 'pages#about'
-get 'haha' , to: 'pages#haha'
+    root to: 'pages#home'
+    get 'about' , to: 'pages#about'
+    get 'haha' , to: 'pages#haha'
+    resources :contacts
 end
