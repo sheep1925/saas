@@ -21,3 +21,22 @@
 
 en:
   hello: "Hello world"
+ 
+en:
+  activerecord:
+    attributes:
+      contact:
+        email: "E-mail Adresse"
+        name: "Name"
+        comments: "Kommentar"
+    errors:
+      models:
+        contact:
+          attributes:
+            email:
+              blank: "muss angegeben werden"
+            name:
+              blank: "muss angegeben werden"
+            comments:
+              blank: "muss angegeben werden"
+             
